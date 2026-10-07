@@ -1,10 +1,4 @@
- {
-  // Debug:
-  "debug.allowBreakpointsEverywhere": true,
-  "debug.javascript.codelens.npmScripts": "never",
-  "editor.glyphMargin": false,  // hide breakpoints
-  "debug.console.closeOnEnd": true,
-
+{
   // Editor:
   "editor.cursorBlinking": "solid",
   "editor.accessibilitySupport": "off",
@@ -47,6 +41,7 @@
   "workbench.hover.delay": 10000, // ms, TODO: find way to turn this off
   "editor.scrollbar.vertical": "auto",
   "editor.scrollbar.horizontal": "hidden",
+  "workbench.experimental.modernUI": false,
 
   // Use simple navigation:
   "editor.gotoLocation.multipleReferences": "goto",
@@ -82,7 +77,7 @@
   "editor.guides.indentation": false,
   "editor.showUnused": false,
   "editor.pasteAs.showPasteSelector": "never",
-  "editor.pasteAs.preferences": ["text.plain"],
+  "editor.pasteAs.preferences": ["text.pylance.reindent"],
   "chat.agent.enabled": false,
 
   // Search
@@ -149,7 +144,6 @@
   },
   "terminal.integrated.enableVisualBell": true,
   "terminal.integrated.fontLigatures.enabled": false,
-  "terminal.integrated.sendKeybindingsToShell": true,
 
   // Main editor:
   "window.clickThroughInactive": false,
@@ -171,6 +165,12 @@
   "workbench.layoutControl.enabled": false,
 
   "merge-conflict.autoNavigateNextConflict.enabled": false,
+
+  // Debug:
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.glyphMargin": false,  // hide breakpoints
+  "debug.console.closeOnEnd": true,
 
   // Tools, extensions, and languages:
   "problems.decorations.enabled": false,
